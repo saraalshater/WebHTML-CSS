@@ -1,13 +1,13 @@
 body {
   margin: 0px auto 0 auto;
-  background-color: #369c58;
-  font-family: 'Slabo 13px', serif;
+  background-color: #3d9c64;
+  font-family: 'Teko', sans-serif;
  
 }
 
  header {
    
-  background-color: #fcfcf5;
+  background-color: #fafafa;
   height: 120px;
   padding-top: 20px;
   
@@ -17,7 +17,10 @@ body {
 
 header h1{
    text-align: center; 
-  background-color: #fcfcf5;
+  
+  color: #414141;
+   font-size: 30px;
+letter-spacing: 0.055em;
   
   
   
@@ -36,9 +39,9 @@ header nav ul li{
 }
 
 header nav ul li a{
-   color: black;
+   color: #414141;
   text-decoration: none;
-  font-family: 'Slabo 13px', serif;
+  font-family: 'Teko', sans-serif;
   font-weight: bold; 
 }
 
@@ -52,25 +55,42 @@ main{
 }
 
 #sec1{
- background-color: #212121;
+background: #414141;
  height: 150px;
- text-align: center;
+ text-align: center; 
   /* color:#fcfcf5; */
  padding-top: 20px;
- /* font-size: 35px; */ */
+ /* font-size: 35px; */ 
+ 
+ box-shadow: inset 0px 9px 7px rgba(0, 0, 0, 0.39);
+ position: relative;
+
+
  
 }
 
 #sec1 h3{
-  color:#fcfcf5;
+  color: white;
  /* padding-top: 20px; */
- font-size: 35px;
+ font-weight: bold;
+font-size: 60px;
+line-height: 120.4%;
+/* or 79px */
+
+letter-spacing: 0.025em;
+margin: 0;
+padding-top: 30px;
+
+
+
+
+
  
   
 }
 
 #sec2 {
-  background-color: #23202038;
+  background-color:#41414138;
 margin-bottom: 110px;
 
 }
@@ -89,7 +109,7 @@ margin-bottom: 110px;
 main section div a{
    color:#fcfcf5;
   text-decoration: none;
-  font-family: 'Slabo 13px', serif;
+  font-family: 'Teko', sans-serif;
   font-weight: bold; 
 
 }
