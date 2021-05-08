@@ -1,6 +1,6 @@
 
 
-<<<<<<< HEAD
+
 var quickMsg = confirm("This is a Green website but you can change it to your favorite color :D ");
 var favColor;
 
@@ -59,7 +59,7 @@ if (radio > 4) {
 
 for (var i = 1; i <= radio; i++) {
     document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-radio.svg/1024px-Circle-icons-radio.svg.png" width="100px">'+ i );
-=======
+}
 // var quickMsg=confirm("This is a Green website but you can change it to your favorite color :D ");
 // var favColor=prompt("What is your Favorite color?");
 
@@ -80,32 +80,32 @@ for (var i = 1; i <= radio; i++) {
 
 
 
-var favPodcast = prompt('Do you prefer Electronic music or Funk music ? ')
+// var favPodcast = prompt('Do you prefer Electronic music or Funk music ? ')
 
-while (favPodcast !== "Electronic music" && favPodcast !== "Funk music") {
-  favPodcast = prompt('only choose Electronic music or Funk music');
-}
+// while (favPodcast !== "Electronic music" && favPodcast !== "Funk music") {
+//   favPodcast = prompt('only choose Electronic music or Funk music');
+// }
 
-if (favPodcast == "Electronic music") {
-  document.write("<h3>For Electronic music we suggest you to listen to Paddygroves and Kosik radio </h3>");
-} else if (favPodcast == "Funk") {
-  document.write("<h3>For Funk music we suggest you to listen to Worldwide fm and Purple planet </h3>");
-} else {
-  document.write("<h3>only choose Electronic music or Funk music</h3>");
-}
-
-
-var radio = prompt("How many radio you listened to?");
+// if (favPodcast == "Electronic music") {
+//   document.write("<h3>For Electronic music we suggest you to listen to Paddygroves and Kosik radio </h3>");
+// } else if (favPodcast == "Funk") {
+//   document.write("<h3>For Funk music we suggest you to listen to Worldwide fm and Purple planet </h3>");
+// } else {
+//   document.write("<h3>only choose Electronic music or Funk music</h3>");
+// }
 
 
-if (radio > 4){
-  radio = 4; 
-}
+// var radio = prompt("How many radio you listened to?");
 
-  for (var i = 0; i < radio; i++) {
-    document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-radio.svg/1024px-Circle-icons-radio.svg.png" width="200px">');
->>>>>>> 9b1bbbd7a3ce00604d8606bac5f611e4fd999008
-  } 
+
+// if (radio > 4){
+//   radio = 4; 
+// }
+
+//   for (var i = 0; i < radio; i++) {
+//     document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-radio.svg/1024px-Circle-icons-radio.svg.png" width="200px">');
+
+//   } 
 
 
 
