@@ -84,8 +84,13 @@ document.write(songCounter());
 
 
 
+
 //     document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-radio.svg/1024px-Circle-icons-radio.svg.png" width="100px">'+ i );
 // }
+
+//     document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-radio.svg/1024px-Circle-icons-radio.svg.png" width="100px">'+ i );
+// }
+
 
 // var quickMsg=confirm("This is a Green website but you can change it to your favorite color :D ");
 // var favColor=prompt("What is your Favorite color?");
